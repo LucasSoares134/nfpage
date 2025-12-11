@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 253, 251, 247;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* Define as fontes que carregamos no layout */
+.font-serif {
+  font-family: var(--font-playfair), serif;
+}
+.font-sans {
+  font-family: var(--font-lato), sans-serif;
+}
+
+/* Rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
